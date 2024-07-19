@@ -1,19 +1,19 @@
 @font-face {
   font-family: "Beaufort";
-  src: url("./Ryuu/assets/fonts/Beaufort-Regular.ttf") format("truetype");
+  src: url("/Ryuu/assets/fonts/Beaufort-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Beaufort";
-  src: url("./Ryuu/assets/fonts/Beaufort-Bold.ttf") format("truetype");
+  src: url("/Ryuu/assets/fonts/Beaufort-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 @font-face {
   font-family: "Spiegel";
-  src: url("./Ryuu/assets/fonts/Spiegel-Regular.ttf") format("truetype");
+  src: url("/Ryuu/assets/fonts/Spiegel-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Spiegel";
-  src: url("./Ryuu/assets/fonts/Spiegel-Italic.ttf") format("truetype");
+  src: url("/Ryuu/assets/fonts/Spiegel-Italic.ttf") format("truetype");
   font-style: italic;
 }
 body,
@@ -76,7 +76,7 @@ code {
 }
 
 body {
-  background-image: url("./Ryuu/assets/img/background.jpg");
+  background-image: url("/Ryuu/assets/img/background.jpg");
 }
 
 .spell-icon-box {
