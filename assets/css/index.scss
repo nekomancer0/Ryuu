@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Beaufort";
+  src: url("fonts/Beaufort-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src: url("/assets/fonts/Beaufort-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Spiegel";
+  src: url("/assets/fonts/Spiegel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Spiegel";
+  src: url("/assets/fonts/Spiegel-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Beaufort", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+
+* {
+  font-family: "Spiegel", sans-serif;
+  box-sizing: border-box;
+  color: white;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.gold {
+  color: #c89b3c;
+}
+
+.beaufort {
+  font-family: "Beaufort", sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  z-index: 1;
+  display: flex;
+  position: sticky;
+
+  top: 0; /* required */
+
+  height: 80px;
+
+  background-color: #091428;
+  justify-content: space-around;
+
+  * {
+    margin-block: auto;
+  }
+
+  .lol-logo {
+    width: 10%;
+  }
+}
+
+code {
+  font-family: "Spiegel";
+}
+
+body {
+  background-image: url("/assets/img/background.jpg");
+}
+
+.spell-icon-box {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  background-image: url(https://tiermaker.com/images/templates/league-of-legends-always-updated-champions-207393/2073931694683068.png);
+  background-size: contain;
+  border: 1px solid #c89b3c;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-family: "Beaufort", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.container {
+  z-index: -1;
+  background-color: #091428;
+  padding: 20px;
+  border-radius: 15px;
+
+  margin-inline: 10%;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+a:hover {
+  text-decoration-line: none;
+  opacity: 0.9;
+}
+
+.chara-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .links {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    right: 12%;
+    gap: 30px;
+  }
+
+  .img-box {
+    display: flex;
+
+    .img-credit {
+      position: absolute;
+      right: 55%;
+      top: 20%;
+    }
+
+    img {
+      width: 80%;
+      padding: 0;
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .titles {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      border-bottom: 0;
+      text-align: center;
+      font-size: 8rem;
+      font-style: italic;
+    }
+
+    h2 {
+      text-decoration-line: underline;
+      border-bottom: 0;
+      text-align: center;
+      font-style: italic;
+    }
+  }
+}
